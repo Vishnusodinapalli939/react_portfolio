@@ -1,0 +1,20 @@
+#con{
+    text-align: center;
+}
+.details,.form{
+    border: 2px solid black;
+    padding:20px;
+    width:400px;
+    position: relative;
+    left:380px;
+    text-align: center;
+}
+.footer{
+    background-color: darkslategrey;
+    height:100px;
+    text-align: center;
+}
+.copy{
+    position: relative;
+    top:30px;
+}

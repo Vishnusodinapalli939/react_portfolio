@@ -1,0 +1,59 @@
+#head{
+    text-align: center;
+}
+#pr{
+    border:2px solid blue;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap:20px;
+    background-color:dimgrey;
+    padding:20px;
+}
+.pr1{
+    border:2px solid blue;
+    height:300px;
+    width:250px;
+    background-color:lightcyan;
+    padding:20px;
+    border-radius: 20px;
+   
+}
+.proname{
+    text-align: center;
+    position:relative;
+    top:-20px;
+    z-index: 1;
+}
+.img1{
+    border:2px solid white;
+    height:200px;
+    width:200px;
+    position:relative;
+    left:5px;
+    top:-15px;
+    align-items: center;
+    opacity:0.7;
+}
+.img1:hover{
+    opacity:1;
+    transform: scale(1.1,1.1);
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:10px;
+}
+a{
+    text-decoration: none;
+}
+.btn1:hover{
+    transform: scale(1.1,1.1);
+}
+.btn2:hover{
+    transform: scale(1.1,1.1);
+}
+a:hover{
+    color:red;
+}

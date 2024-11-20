@@ -1,0 +1,13 @@
+#nav{
+    background-color: darkcyan;
+    height:60px;
+    text-align: center;
+}
+.list{
+    display:flex;
+    gap:30px;
+    list-style: none;
+    position: relative;
+    left:450px;
+    top:15px;
+}

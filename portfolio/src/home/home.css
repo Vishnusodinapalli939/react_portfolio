@@ -1,0 +1,37 @@
+#div{
+    text-align: center;
+    background-color: aqua;
+}
+#img,#img1{
+    height:260px;
+    width:260px;
+    background-color: blue;
+    position: relative;
+    border-radius: 30px;
+    padding:10px;
+    
+}
+#head{
+    text-align: center;
+}
+img{
+    position:relative;
+    left:-10px;
+}
+#info{
+    border:2px solid red;
+    width:500px;
+    height:250px;
+    padding:10px;
+    background-color: cadetblue;
+    border-radius: 30px;
+    text-align: center;
+}
+#self{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    height:300px;
+    padding:20px;
+    flex-wrap: wrap;
+}
